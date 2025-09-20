@@ -1,30 +1,30 @@
 # Oracle Cloud Infrastructure Platform
 
 **Oracle Cloud Infrastructure** building blocks:
-- Core Infrastructure
+1. Core Infrastructure
 	- Compute (Bare Metal, VM, CPUs, GPUs, HPC)
 	- Containers
 	- OS, VMware
 	- Storage (Block, Object, Archive, etc.)
 	- Networking (VCN, VPN, etc.)
-- Database 
+2.  Database 
 	- Oracle Databases (OLTP, OLAP, JSON, etc.)
 	- Distributed & OSS Databases (NoSQL, MySQL)
-- Data & AI 
+3. Data & AI 
 	- Big Data (Data Flow, Data Integration, etc.)
 	- AI services (Data Science)
 	- Messaging (Streaming, Queueing)
-- Analytics 
+4. Analytics 
 	- Business Analytics
-- Applications 
+5.  Applications 
 	- Serverless (Events, Functions, API Gateway)
 	- App Integration (Integration Cloud, etc.)
 	- Business & Industry SaaS (ERP, HCM, SCM, Sales, etc.)
-- Governance & Administration
+6.  Governance & Administration
 	- Cloud Ops (IAM, Compartments, Tagging, Cost Advisor)
 	- Security (Cloud Guard, Security, etc.)
 	- Observability (Monitoring, Logging, etc.)
-- Developer Services
+7.  Developer Services
 	- Low Code (APEX)
 	- AppDev (Visual Builder Studio, GraalVM, etc.)
 	- Infrastructure as Code (Terraform, Ansible, etc.)
