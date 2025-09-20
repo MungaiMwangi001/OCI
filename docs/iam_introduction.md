@@ -20,17 +20,22 @@ IAM in OCI consists of Principals, Policies, Federation, and a few other compone
 An Identity Domain is a container for users and groups.
 
 How does it works ?
-1. Create an Identity Doamin
+1. Create an Identity Domain
 2. Create Users and Groups
 3. Write Policies against those groups
 4. Policies are scoped to a tenancy/account/compartment
 5. Resource area available within a compartment
+
+![Identity-concepts](/Iam/oci-identity-concepts.png)
 
 Each resource in the OCI has its own assigned identifier, which is called **Oracle Cloud ID (OCID)**. Oracle generates these unique identifiers.
 
 The syntax is:
 
     ocid1.<resource_type>.<realm>.[region][.future_use].<unique_id>
+
+Examples:
+    [Block Volume] ocid1.volume.oc1.eu-frankfurt-1.dsarh........jh45as
 
 where:
 
@@ -39,12 +44,6 @@ where:
 - *region* is the region code
 - *unique_id* is the unique identifier of the resource
 
-Examples:
-
-    [Tenancy] ocid1.tenancy.oc1..aaaaartg56hjrtyu84556fdfdtqu56 (NOTE: no region!)
-    [Block Volume] ocid1.volume.oc1.eu-frankfurt-1.dsarhsd456hfd98fkajh45as
-
-
-
+![OCI IAM](/Iam/iam.png)
 
 
